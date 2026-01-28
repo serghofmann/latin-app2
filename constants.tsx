@@ -3,87 +3,87 @@ import React from 'react';
 import { LatinModule } from './types';
 
 export const LATIN_MODULES: LatinModule[] = [
-  // KLASSE 6 (Wiederholung / Basis)
+  // BASICS (Lektion 1-10)
   {
-    id: 'basis-deklination',
-    title: 'Die O- und A-Deklination',
-    description: 'Lektion 1-5: Der Grundstein. Wer ist Subjekt (Nom.) und wer Objekt (Akk.)?',
+    id: 'deklination-a-o',
+    title: 'A- & O-Deklination',
+    description: 'Lektion 1-5: Wer macht was? Nominativ & Akkusativ (Subjekt/Objekt) meistern.',
     icon: '🏛️',
     category: 'Grammar'
   },
   {
-    id: 'praesens-baukasten',
+    id: 'konjugation-praesens',
     title: 'Das Präsens-System',
-    description: 'Lektion 1-8: o-s-t-mus-tis-nt. Wie man Handlungen in der Gegenwart beschreibt.',
+    description: 'Lektion 1-8: Alle Konjugationen (a-, e-, i-, kons-). Der Motor der Sätze.',
     icon: '⚔️',
     category: 'Grammar'
   },
   {
-    id: 'dritte-deklination',
-    title: 'Die 3. Deklination',
-    description: 'Lektion 11+: Die "Misch-Gruppe". Wörter wie "rex" oder "nomen" verstehen.',
-    icon: '👑',
-    category: 'Grammar'
+    id: 'wortschatz-basics-300',
+    title: 'Wortschatz-Sprint 1',
+    description: 'Die ersten 300 Vokabeln aus CURSUS. Alltagsbegriffe & Verben.',
+    icon: '🏺',
+    category: 'Vocabulary'
   },
-  
-  // KLASSE 7 (Der aktuelle Stoff)
+
+  // MITTELSTUFE (Lektion 11-20)
   {
-    id: 'perfekt-system',
-    title: 'Perfekt & Imperfekt',
-    description: 'Lektion 10-12: Die Vergangenheit. v-Perfekt, u-Perfekt und das "ba"-Zeichen.',
+    id: 'perfekt-imperfekt',
+    title: 'Vergangenheit lesen',
+    description: 'Lektion 10-12: Perfekt (Handlung abgeschlossen) vs. Imperfekt (Zustand).',
     icon: '📜',
     category: 'Grammar'
   },
   {
-    id: 'aci-verstehen',
-    title: 'Der AcI (Satzbau-Geheimnis)',
-    description: 'Lektion 9/14: "Ich sehe, dass...". Der wichtigste Satzbau im Lateinischen.',
+    id: 'aci-infinitiv',
+    title: 'AcI: Das "Dass"-Satz Geheimnis',
+    description: 'Lektion 9/14: Die wichtigste Konstruktion. "Video te venire" = Ich sehe, dass du kommst.',
     icon: '👁️',
     category: 'Translation'
   },
   {
-    id: 'pronomina-check',
-    title: 'is, ea, id & Co.',
-    description: 'Lektion 13-16: Er, sie, es. Wer bezieht sich auf wen? Verweise im Text.',
-    icon: '🔗',
-    category: 'Grammar'
-  },
-  {
-    id: 'passiv-transformation',
-    title: 'Das Passiv',
-    description: 'Lektion 18-20: -r, -ris, -tur. Wenn mit jemandem etwas gemacht wird.',
+    id: 'dritte-deklination-komplex',
+    title: 'Die 3. Deklination',
+    description: 'Lektion 11/17: Konsonantische & i-Stämme. Wörter wie miles, corpus, vis.',
     icon: '🛡️',
     category: 'Grammar'
   },
   {
-    id: 'pc-partizipien',
-    title: 'Das PC (Participium Coniunctum)',
-    description: 'Lektion 19-21: Das "Schweizer Taschenmesser". Sätze elegant verkürzen.',
+    id: 'passiv-formen',
+    title: 'Aktiv vs. Passiv',
+    description: 'Lektion 18/20: Werden oder tun? -r, -ris, -tur Endungen sicher erkennen.',
+    icon: '⛓️',
+    category: 'Grammar'
+  },
+
+  // FORTGESCHRITTEN (Lektion 21-36)
+  {
+    id: 'partizipien-pc',
+    title: 'PC (Partizip-Klammern)',
+    description: 'Lektion 19-21: PPP & PPA. Wie man lange Sätze elegant übersetzt.',
     icon: '🖇️',
     category: 'Translation'
   },
   {
-    id: 'abl-abs',
-    title: 'Ablativus Absolutus',
-    description: 'Lektion 28+: Die Königsdisziplin. Losgelöste Sätze richtig übersetzen.',
+    id: 'ablativus-absolutus',
+    title: 'Ablativus Absolutus (Abl.abs.)',
+    description: 'Lektion 28-30: Die Endstufe der 7. Klasse. Zeitverhältnisse verstehen.',
     icon: '🎓',
     category: 'Translation'
   },
-  
-  // VOKABELN & KULTUR
   {
-    id: 'vokabel-survival-800',
-    title: 'Wortschatz-Meister',
-    description: 'Die wichtigsten 800 Wörter aus CURSUS Lektion 1-30 im Griff haben.',
-    icon: '🏺',
+    id: 'vokabel-profi-800',
+    title: 'Wortschatz-Meister 800',
+    description: 'Lektion 1-36: Alle Stammformen & Wortfelder (Politik, Krieg, Liebe).',
+    icon: '👑',
     category: 'Vocabulary'
   },
   {
-    id: 'mythos-goetter',
-    title: 'Götter & Mythen',
-    description: 'Wer ist Jupiter? Wer ist Venus? Hintergrundwissen für die Texte.',
-    icon: '⚡',
-    category: 'Vocabulary'
+    id: 'konjunktiv-system',
+    title: 'Konjunktiv & Gliedsätze',
+    description: 'Lektion 22-35: ut, cum, quod. Wünsche, Befehle und Möglichkeiten.',
+    icon: '🔮',
+    category: 'Grammar'
   }
 ];
 
@@ -97,6 +97,6 @@ export const RANKS = [
 ];
 
 export const getRank = (xp: number) => {
-  const index = Math.min(Math.floor(xp / 800), RANKS.length - 1);
+  const index = Math.min(Math.floor(xp / 1000), RANKS.length - 1);
   return RANKS[index];
 };
